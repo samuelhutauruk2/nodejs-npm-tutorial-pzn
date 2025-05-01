@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-npm-tutorial-pzn",
+  "version": "1.0.0",
+  "description": "Just a NodeJS NPM playground",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samuelhutauruk2/nodejs-npm-tutorial-pzn.git"
+  },
+  "keywords": [
+    "npm",
+    "nodejs"
+  ],
+  "author": "Samuel Hutauruk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samuelhutauruk2/nodejs-npm-tutorial-pzn/issues"
+  },
+  "homepage": "https://github.com/samuelhutauruk2/nodejs-npm-tutorial-pzn#readme"
+}
