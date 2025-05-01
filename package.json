@@ -2,8 +2,16 @@
   "name": "nodejs-npm-tutorial-pzn",
   "version": "1.0.0",
   "description": "Just a NodeJS NPM playground",
-  "main": "index.js",
+  "main": "write.js",
+  "exports": {
+    ".": "./index.js",
+    "./write": "./write.js"
+  },
+  "type": "module",
   "scripts": {
+    "prestart": "echo \"Before Application Start\"",
+    "start": "node index.js",
+    "poststart": "echo \"After Application Start\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +27,8 @@
   "bugs": {
     "url": "https://github.com/samuelhutauruk2/nodejs-npm-tutorial-pzn/issues"
   },
-  "homepage": "https://github.com/samuelhutauruk2/nodejs-npm-tutorial-pzn#readme"
+  "homepage": "https://github.com/samuelhutauruk2/nodejs-npm-tutorial-pzn#readme",
+  "dependencies": {
+    "lodash": "4.17.21"
+  }
 }
